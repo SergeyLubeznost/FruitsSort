@@ -56,15 +56,29 @@
             <input class="kind__input" />
           </div>
 
-          <div class="line">
-            <div>color:</div>
-            <input class="color__input" />
-          </div>
+          <form>
+            <div class="line">
+              <div>color:</div>
+              <select class="color__input" name="color">
+                <option value="красный">красный</option>
+                <option value="розово-красный">розово-красный</option>
+                <option value="светло-коричневый">светло-коричневый</option>
+                <option value="жёлтый">жёлтый</option>
+                <option value="зелёный">зелёный</option>
+                <option value="голубой">голубой</option>
+                <option value="синий">синий</option>
+                <option value="фиолетовый">фиолетовый</option>
+              </select>
+            </div>
+          </form>
 
           <div class="line">
             <div>weight:</div>
             <input class="weight__input" />
           </div>
+
+          <button class="save__array__btn line">Сохранить массив</button>
+          <button class="restore__array__btn line">Восстановить массив</button>
 
           <!-- TODO: при нажатии новый фрукт добавляется в конец списка -->
           <button class="add__action__btn line">Добавить фрукт</button>
